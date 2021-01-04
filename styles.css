@@ -1,0 +1,34 @@
+.die, #sum-result {
+    user-select: none;
+    font-family: monospace, sans-serif;
+}
+
+.die{
+    font-size: 4rem;
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 5%;
+
+    color: transparent;
+    text-shadow: 0 0 0px black;
+
+    -webkit-transition-duration: 200ms;
+    -webkit-transition-timing-function: ease;
+    -moz-animation-duration: 200ms;
+    -moz-animation-timing-function: ease;
+}
+
+.die:hover{
+    font-size: 15rem;
+    text-shadow: 0 0 15px black;
+}
+
+#table {
+    position: relative;
+    height: 90vh;
+}
+
+#sum-result {
+    font-size: 1.5rem;
+}

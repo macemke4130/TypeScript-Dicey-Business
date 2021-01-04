@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "module": "es6",
+    "moduleResolution": "node",
+    "target": "es5",
+    "allowSyntheticDefaultImports": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowJs": true,
+    "lib":[
+        "es2015", "dom"
+    ]
+  },
+  "exclude": [
+      "node_modules"
+  ]
+}
+
+// {
+//     "compilerOptions": {
+//       "module": "commonjs",
+//       "target": "ES6",
+//       "noImplicitAny": true,
+//       "removeComments": true,
+//       "preserveConstEnums": true,
+//       "sourceMap": true
+//     },
+//     "files": [
+//       "app.ts"
+//     ]
+//     }
